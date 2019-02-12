@@ -34,7 +34,7 @@
         ><br />
         {{video.title}} <button @click="video.show=false">Hide</button>
         <button @click="video.show=true">Show</button>
-		    <button @click="videos.splice(index)">Delete</button> <br />
+		    <button @click="videos.splice(index, 1)">Delete</button> <br />
       </span>
       <! -- Exercise: 
          Only show the hide button when the video is shown.
